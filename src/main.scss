@@ -1,0 +1,71 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+
+.fc {
+    font-family: Poppins;
+    // background: #272735;
+    background: #000000;
+    text-align: center;
+}
+.fc-toolbar.fc-header-toolbar {
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.fc-toolbar h2 {
+    color: #ea4919;
+    font-size: 17px;
+}
+.fc-button-primary {
+    color: #ea4919;
+    background-color: transparent;
+    border-color: #ea4919;
+    border: none;
+}
+.fc-button-primary:hover{
+    color: #ea4919;
+    background-color: transparent;
+    border-color: #ea4919;
+}
+.fc-button-primary:focus{
+    box-shadow: none;
+}
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active {
+    color: #ea4919;
+    background-color: transparent;
+    border-color: #ea4919;
+}
+.fc-button-primary:not(:disabled):active:focus, .fc-button-primary:not(:disabled).fc-button-active:focus {
+    box-shadow: none;
+}
+
+.fc-view-container {
+    color: #ffff;
+}
+.fc-unthemed td.fc-today {
+    background: #ea4919;
+}
+// .fc-unthemed td.fc-today .fc-day-number{
+    // background: #ea4919;
+    // border-radius: 50%;
+    // padding: 4px;
+    // vertical-align: sub;
+// }
+.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td {
+    border-color: #5d5d68
+}
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number{
+    float: unset;
+}
+.fc-row .fc-content-skeleton .fc-event-container{
+    padding-top: 8px;
+}
+
+.fc .fc-row .fc-content-skeleton td{
+    border-color: transparent;
+}
+
+.fc-unthemed .fc-disabled-day  {
+    background: transparent !important;
+}

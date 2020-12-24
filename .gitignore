@@ -3,7 +3,10 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
-
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
 # Other files and folders
 .settings/
 
